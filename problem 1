@@ -2,14 +2,14 @@ testing |x| in #'s between (1..num-1) (1-number not including number)
 if |x| == true that it's a multiple (divides evenly with remainder of 0)
 add value of x to the total. after the loop is closed, return the total of all multiples. Run the function
 
-def sum_of_multiples(num)
-    total = 0 
-    (1..num-1).each do |x|
-        if (x%3==0) ||(x%5==0)
-            total += x
-        end
-    end
-    return total
-end
+function sum_of_multiples(num){
+    var total = 0
+    for(var x = 1; x<num;x++){
+        if(x%3==0||x%5==0){
+            total += x;
+        }
+    }
+    return total;
+}
 
-sum_of_multiples(1000)
+sum_of_multiples(1000);
