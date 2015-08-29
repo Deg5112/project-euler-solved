@@ -13,3 +13,4 @@ function sum_of_multiples(num){
 }
 
 sum_of_multiples(1000);
+=> 233168
