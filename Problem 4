@@ -1,4 +1,3 @@
-//this function works not sure what the deal is with the bottom one. it returns every product in an array not just the pal.
 function isPal(num){
     var number = num;
     var arr = number.toString().split('');
@@ -13,18 +12,21 @@ function isPal(num){
 }
         
 
-function largestPal(min, max){
-    var arr = [];
-    for(var x = min; x < (max+1);x++){
-        for(var y = x; y<(max+1); y++){
-            var product = y*x;
-            if(isPal(product)){
-                pal = product;
-                arr.push(pal);
+function largestPal(){
+    var mP = 0;
+    for(var x = 10; x<100; x++){
+        for(var y = x; y<100; y++){
+            var cP = x*y;
+            if(isPal(cP)){
+                if(cP>mP){
+                mP=cP;
+                }
             }
         }
     }
-    return arr;
+    return mP;
 }
+
+largestPal();
 
 largestPal(10, 99);
