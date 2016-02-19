@@ -1,8 +1,8 @@
-So this one was pretty easy, accept I'm going to start writing this specific test for primes as a function. 
-it test all of the numbers under the square root of the limit, it took the browser forever when I wrote a function
-that test all integers under the limit to see if they divide. If none of the integers under the square root divide evenly,
-then its safe to say the number is a prime, using less resources.
-answer: 142913828922
+//So this one was pretty easy, accept I'm going to start writing this specific test for primes as a function.
+//it test all of the numbers under the square root of the limit, it took the browser forever when I wrote a function
+//that test all integers under the limit to see if they divide. If none of the integers under the square root divide evenly,
+//then its safe to say the number is a prime, using less resources.
+//answer: 142913828922
 
 $(document).ready(function(){
 

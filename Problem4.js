@@ -27,6 +27,6 @@ function largestPal(){
     return mP;
 }
 
-largestPal();
+
 
 largestPal(10, 99);

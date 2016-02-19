@@ -1,4 +1,4 @@
-I just made a function for section, then I did one minus the other one in a separate function to get the difference. 
+//I just made a function for section, then I did one minus the other one in a separate function to get the difference.
 
 function sumOfNumbersSquared(num){
 var total = 0;

@@ -1,5 +1,5 @@
-define a prime, run the function to test if it's a prime, and then of course if the value of x in array is also a factor of the
-number.. 
+//define a prime, run the function to test if it's a prime, and then of course if the value of x in array is also a factor of the
+//number..
 
 function isPrime(number){
     for(var x = 3; x<number; x++){
